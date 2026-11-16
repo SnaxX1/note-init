@@ -10,7 +10,7 @@
 ## 📑 Sommaire
 
 1. [Objectifs pédagogiques](#1-objectifs-pédagogiques)
-2. [Prérequis et organisation](#2-prérequis-et-organisation)
+2. [Prérequis et organisation](#2-prérequis-et-organisation) 
 3. [Comprendre Git en 10 minutes](#3-comprendre-git-en-10-minutes)
 4. [Présentation de l'application et de l'architecture](#4-présentation-de-lapplication-et-de-larchitecture)
 5. [Le scénario complet (vue d'ensemble)](#5-le-scénario-complet-vue-densemble)
@@ -514,7 +514,7 @@ export async function create({ title, content }) {
   return rows[0];
 }
 ```
-> 🔒 `$1`, `$2` = **requêtes paramétrées** : protègent contre l'injection SQL. Ne concaténez jamais les valeurs dans la chaîne SQL.
+> 🔒 `$1`, `$2` = **requêtes paramétrées** : protègent contre l'injection SQL. Ne concaténez jamais les valeurs dans la chaînhttps://github.com/ImenAouissi/Note-init.gite SQL.
 
 **`backend/src/controllers/noteController.js`** — **C**ontroller : valide et orchestre
 ```js
